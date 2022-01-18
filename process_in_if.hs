@@ -1,3 +1,8 @@
+import Data.List
+import System.IO
+import System.Process
+import Control.Monad.State.Lazy
+
 main :: IO ()
 main = do
     putStrLn "Pick a number?"
